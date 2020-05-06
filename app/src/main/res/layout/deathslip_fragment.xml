@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.DeathSlipFragment">
+
+    <Button
+        android:id="@+id/btnGetApiCall"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="89px"
+        android:layout_height="wrap_content"
+        android:text="GET API" />
+    <Button
+        android:id="@+id/btnPostApiCall"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="89px"
+        android:layout_height="wrap_content"
+        android:text="POST API" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:padding="12dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        android:hint="RESULT"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:background="#F2F2F2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+</LinearLayout>
